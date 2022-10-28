@@ -14,12 +14,12 @@ removal tool for SubRip (SRT) subtitles.
 ```python
 import pysdhstrip
 
-with open("input.srt") as fd:
+with open("input.srt", encoding="utf-8") as fd:
     subtitles = fd.read()
 
 stripped = pysdhstrip.strip(subtitles)
 
-with open("output.srt", "w") as fd:
+with open("output.srt", "w", encoding="utf-8") as fd:
     fd.write(stripped)
 ```
 
