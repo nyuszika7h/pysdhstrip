@@ -6,6 +6,7 @@ authors = [
   { name = "nyuszika7h", email = "nyuszika7h@gmail.com" },
 ]
 license = { text = "MIT" }
+readme = "README.md"
 requires-python = "~= 3.9"
 dependencies = [
   "pysrt ~= 1.1",
