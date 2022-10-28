@@ -1,0 +1,50 @@
+repos:
+  - repo: https://github.com/pycqa/flake8
+    rev: 5.0.4
+    hooks:
+      - id: flake8
+        additional_dependencies:
+          - flake8-broken-line==0.5.0
+          - flake8-bugbear==22.10.27
+          - flake8-builtins==1.5.3
+          - flake8-comprehensions==3.10.0
+          - flake8-executable==2.1.2
+          - flake8-implicit-str-concat==0.3.0
+          - flake8-pie==0.16.0
+          - flake8-pyproject==1.1.0.post0
+          - flake8-requirements==1.7.3
+          - flake8-simplify==0.19.3
+          - flake8-type-checking==2.2.0
+          - flake8-use-fstring==1.4
+          - pep8-naming==0.13.2
+
+  - repo: https://github.com/pycqa/isort
+    rev: 5.10.1
+    hooks:
+      - id: isort
+
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v0.982
+    hooks:
+      - id: mypy
+        args: []
+        additional_dependencies:
+          - cloup==1.0.1
+          - types-regex==2022.9.13.1
+
+  - repo: https://github.com/asottile/pyupgrade
+    rev: v3.1.0
+    hooks:
+      - id: pyupgrade
+        args: [--py38-plus]
+
+  - repo: https://github.com/myint/unify
+    rev: v0.5
+    hooks:
+      - id: unify
+        args: [--in-place, --quote="]
+
+  - repo: https://github.com/jendrikseipp/vulture
+    rev: v2.6
+    hooks:
+      - id: vulture
