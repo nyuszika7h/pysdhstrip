@@ -50,7 +50,7 @@ def _strip_cue(text: str) -> str:
 
     # Strip speaker names at the beginning of lines. This is automated when the
     # speaker name is all caps and the rest of the cue isn't, otherwise it's
-    # prompted or skipped depending on the interactivity level.
+    # skipped and a warning is emitted.
     pattern = regex.compile(
         rf"^({{\\an\d+}})?(?:{HTML_TAG_RE})?(?:-\s?)?(?:{HTML_TAG_RE})?(.+?):(?:\s+|$)(.*)",
         flags=regex.MULTILINE,
