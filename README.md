@@ -5,7 +5,7 @@ removal tool for SubRip (SRT) subtitles.
 
 ## Installation
 
-* PyPI: `pip install pysdhstrip`
+* PyPI: `pip install pysdhstrip` (coming soon)
 * From source: `pdm install`
 
 ## Usage
