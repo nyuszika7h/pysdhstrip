@@ -399,7 +399,7 @@ dependencies = [
 
 [metadata]
 lock_version = "4.0"
-content_hash = "sha256:4f347232e23afb2fdce8ab91c07d9db0d84f5fe4e9eb0f2af9b9a249035d8a79"
+content_hash = "sha256:145b5e6750f4c501cc5d56c6a7c2c950a92f53d547cda0b0e487f1aa84d8ce10"
 
 [metadata.files]
 "astor 0.8.1" = [

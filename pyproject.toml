@@ -18,6 +18,8 @@ cli = [
   "cloup ~= 1.0",
   "coloredlogs ~= 15.0",
 ]
+
+[tool.pdm.dev-dependencies]
 dev = [
   "flake8 ~= 5.0",
   "flake8-broken-line ~= 0.5.0",
