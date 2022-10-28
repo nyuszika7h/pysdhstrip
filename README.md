@@ -5,7 +5,7 @@ removal tool for [SRT](https://en.wikipedia.org/wiki/SubRip#SubRip_file_format) 
 
 ## Installation
 
-* PyPI: `pip install pysdhstrip` (coming soon)
+* PyPI: `pip install pysdhstrip`
 * From source: `pdm install`
 
 ## Usage
