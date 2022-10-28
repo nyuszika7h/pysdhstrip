@@ -1,7 +1,7 @@
 # pysdhstrip
 
-Intelligent SDH (Subtitles for the Deaf and Hard of Hearing) / HI (Hearing Impaired)
-removal tool for SubRip (SRT) subtitles.
+Intelligent [SDH/HI](https://en.wikipedia.org/wiki/Subtitles_for_the_deaf_or_hard-of-hearing) removal tool
+removal tool for [SRT](https://en.wikipedia.org/wiki/SubRip#SubRip_file_format) subtitles.
 
 ## Installation
 
