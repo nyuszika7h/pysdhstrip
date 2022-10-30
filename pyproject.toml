@@ -13,6 +13,9 @@ dependencies = [
   "regex >= 2022.7.25",
 ]
 
+[project.urls]
+Repository = "https://github.com/nyuszika7h/pysdhstrip"
+
 [project.optional-dependencies]
 cli = [
   "click ~= 8.1",
